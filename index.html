@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pagination Task</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+      <!-- Table -->
+      <table class="table">
+        <thead class="table-head">
+          <th class="column-id">ID</th>
+          <th class="column">Image</th>
+          <th class="column">Name</th>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+      </div>
+    </div>
+    <!-- Navigation -->
+    <div class="footer-directions">
+      <button class="nav-btn frw-btn" id="prev" onclick="navigate('back')">
+        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+      </button>
+      <button class="nav-btn ran-btn" id="next" onclick="navigate('random')">
+        <i class="fa fa-random" aria-hidden="true"></i>
+      </button>
+      <button class="nav-btn back-btn" id="next" onclick="navigate('frwd')">
+        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+      </button>
+  </body>
+</html>
